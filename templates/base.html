@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculatpr</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="/static/css/case.css">
+        
+    </head>
+    <body>
+        <div>
+            
+        
+            
+            
+            
+        
+            <form method="POST" action="/about/" >
+                {% csrf_token%}
+                
+                <label for ="name"> First Number</label><br>
+
+                <input type = "text" name = "name1" placeholder="enter 1st nuber">  </input><br>
+                <label for ="name"> Second number</label><br>
+                <input type = "text" name = "name2"  placeholder="enter 2nd nuber">   </input><br>
+                <label for="">select opr...</label><br>
+                <select name="opr" id="">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select><br>
+                
+                <input type = "submit" value = "submit"></input>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </form>
+        </div>
+        
+            <!--[if lt IE 7]>
+                </!--[if>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
